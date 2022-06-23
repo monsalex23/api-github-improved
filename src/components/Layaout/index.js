@@ -1,13 +1,13 @@
 import React from "react";
-
+import * as S from "./styled"
 const Layaout = ({children}) => {
     return (
-        <section>
+        <S.WrapperLayout>
             <header>
                 Hola
             </header>
             {children}
-        </section>
+        </S.WrapperLayout>
     );
 }
 
