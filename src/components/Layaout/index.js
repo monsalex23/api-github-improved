@@ -1,6 +1,6 @@
 import React from "react";
 
-function Layaout({children}) {
+const Layaout = ({children}) => {
     return (
         <section>
             <header>
