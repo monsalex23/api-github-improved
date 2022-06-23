@@ -1,12 +1,12 @@
 import React from "react";
 
-function Layaout() {
+function Layaout({children}) {
     return (
         <section>
             <header>
                 Hola
             </header>
-            {}
+            {children}
         </section>
     );
 }
