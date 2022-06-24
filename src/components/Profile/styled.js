@@ -27,7 +27,7 @@ h4{
     font-weight: bold;
 }
 a{
-    color: green;
+    color: #18978F;
     font-weight: bold;
     font-size: 18px;
 }

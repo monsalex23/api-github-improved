@@ -38,7 +38,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'PT Sans', sans-serif;
 }
 
 /**
