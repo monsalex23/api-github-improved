@@ -1,5 +1,6 @@
 import React from 'react'
 import * as S from './styled';
+import RepositoryItem from '../Repository-item';
 
 const Repositories = () => {
   return (
@@ -9,10 +10,14 @@ const Repositories = () => {
       <S.WrapperTabLists>
         <S.WrapperTab>Repositories</S.WrapperTab>
         <S.WrapperTab>Starred</S.WrapperTab>
-        </S.WrapperTabLists>
-        <S.WrapperTabPanel>Panel Repositories</S.WrapperTabPanel>
-        <S.WrapperTabPanel>Panel Starred</S.WrapperTabPanel>
-      
+      </S.WrapperTabLists>
+      <S.WrapperTabPanel>
+        <RepositoryItem name="repo1" fullName="actividad-sintaxis-y-operadores-JS" linkToRepo="https://github.com/monsalex23/actividad-sintaxis-y-operadores-JS"/>
+      </S.WrapperTabPanel>
+      <S.WrapperTabPanel>
+        <RepositoryItem name="repo2" fullName="calculator-JS" linkToRepo="https://github.com/monsalex23/calculator-JS" />
+      </S.WrapperTabPanel>
+
     </S.WrapperTabs>
   )
 };
